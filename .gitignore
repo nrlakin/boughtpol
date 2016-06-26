@@ -1,0 +1,10 @@
+.env
+venv
+*.pyc
+*.db
+tmp
+*.pem
+.DS_Store
+sample_data
+scratch/
+*.ignore
