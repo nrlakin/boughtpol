@@ -21,6 +21,11 @@ class Config:
     MAIL_SUBJECT_PREFIX = ''
     MAIL_SENDER = '<admin@dot.com>'
 
+    FEC_API_BASE = 'https://api.open.fec.gov/v1'
+    FEC_API_KEY = 'F5vBcaTlFRcUkLPsARggwggPIbJkiZ1Sm0rkAExI'
+    CANDIDATES = dict(
+        trump = 'P80001571'
+    )
     @staticmethod
     def init_app(app):
         pass
